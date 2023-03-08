@@ -3,62 +3,78 @@
     <head>
         <meta charset="utf-8">
         <title>First Landing Page</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="header">
-            <div class="logo">Header Logo</div>
-            <ul class="nav">
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </div>
-
-        <div class="main-section">
-            <div class="main-text">
-                <h2>This website is awesome</h2>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign Up</button>
+        <div class="hero">
+            <div class="header">
+                <div class="logo">
+                    Header Logo
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">header link one</a></li>
+                        <li><a href="#">header link two</a></li>
+                        <li><a href="#">header link three</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <img src="#">
-            </div>
-        </div>
-
-        <h3>Some random information.</h3>
-
-        <div class="card-section">
-            <div="card">
-                <img src="#">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div="card">
-                <img src="#">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div="card">
-                <img src="#">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div="card">
-                <img src="#">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="hero-main">
+                <div class="main-left">
+                    <div class="main-text">
+                        This website is awesome
+                    </div>
+                    <div class="secondary-text">
+                        This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+                    </div>
+                    <div class="button">
+                    <button>Sign up</button>
+                    </div>
+                </div>
+                <div class="main-right">
+                    <img src="./images/DemoBanner.jpg">
+                </div>
             </div>
         </div>
 
-        <div>
-            <quote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</quote>
-            <p>-Thor, God of Thunder</p>
+        <div class="information-section">
+            <div class="card-section-heading">
+                <p>Some random information.</p>
+            </div>
+            <div class="card-section">
+                <div class="card">
+                    <img src="./images/DemoImage.jpg">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <img src="./images/DemoImage.jpg">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <img src="./images/DemoImage.jpg">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <img src="./images/DemoImage.jpg">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
         </div>
 
-        <div class="call-to-action">
-            <div class="left">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
+        <blockquote class="quote">
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's     just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <figcaption>&mdash;Thor, The God of Thunder</figcaption>
+        </blockquote>
+
+        <div class="cta">
+            <div class="cta-left">
+                <p class="cta-heading">Call to action! It's time!</p>
+                <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
             </div>
-            <div class="right">
-                <button>Sign Up</button>
+            <div class="cta-right">
+                <button>Sign up</button>
             </div>
+
         </div>
 
         <div class="footer">
